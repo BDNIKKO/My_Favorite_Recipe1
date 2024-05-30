@@ -13,7 +13,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #7e36363a;
+    background-color: #9432323a;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -36,6 +36,6 @@ b {
 hr {
     border: 0;
     height: 1px;
-    background: #ccc;
+    background: #000000;
     margin: 40px 0;
 }
