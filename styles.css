@@ -1,0 +1,41 @@
+/* styles.css */
+
+body {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7e36363a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #d35400;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+b {
+    color: #c0392b;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 40px 0;
+}
