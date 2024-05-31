@@ -10,6 +10,7 @@ body {
 
 .content {
     max-width: 800px;
+    max-height: fit-content;
     margin: 0 auto;
     padding: 20px;
     background-color: #9432325e;
