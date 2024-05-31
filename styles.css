@@ -3,21 +3,24 @@
 body {
     font-family: 'Lobster', cursive;
     font-size: 20px;
-    color: #333;
+    color: #141212;
+    background: fixed;
+    background-color: #4d46459d;
     margin: 0;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
+    
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     padding: 100px;
-    background-color: #9432325e;
+    background-color: #9432327e;
     box-shadow: 0 4px 8px rgba(54, 12, 12, 0.808);
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 40px 0 0 0; 
+    text-align: left;
 }
 
 .centered-image {
@@ -28,7 +31,7 @@ body {
 
 h1 {
     font-size: 2em;
-    color: #ca3423;
+    color: #b31201;
     text-align: center;
 }
 
@@ -38,7 +41,7 @@ p {
 }
 
 b {
-    color: #ca3423;
+    color: #b31201;
 }
 
 hr {
@@ -47,3 +50,5 @@ hr {
     background: #000000;
     margin: 40px 0;
 }
+
+ 
