@@ -1,4 +1,4 @@
-/* styles.css */
+
 
 body {
     font-family: 'Lobster', cursive;
@@ -6,7 +6,7 @@ body {
     color: #141212;
     background: fixed;
     background-color: #4d46459d;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,8 +19,14 @@ body {
     background-color: #9432327e;
     box-shadow: 0 4px 8px rgba(54, 12, 12, 0.808);
     border-radius: 30px;
-    padding: 40px 0 0 0; 
+    padding: 20px 20 20 50; 
     text-align: left;
+}
+
+nav {
+    margin: 10px 0 20px 0; 
+    padding: 10px 0 0 0; 
+    text-align: center;
 }
 
 .container p {
@@ -55,4 +61,58 @@ hr {
     margin: 40px 0;
 }
 
- 
+
+table, th, td {
+    border: 1px solid #000000;
+    padding: 5px;
+    text-align: left;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: #ad2b2b;
+}
+
+p, ol, ul  {
+    line-height: 2;
+    margin: 10px 0;
+    text-align: left; 
+    font-size: larger;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #7e6060a8;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ca3423;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a92b1e;
+}
