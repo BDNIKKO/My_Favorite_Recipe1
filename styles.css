@@ -2,11 +2,11 @@
 
 body {
     font-family: 'Lobster', cursive;
-    font-size: 20px;
+    font-size: 22px;
     color: #141212;
     background: fixed;
     background-color: #4d46459d;
-    padding: 100px;
+    padding: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +36,10 @@ nav {
 .centered-image {
     display: block;
     margin: 20px auto;
+    border: 5px solid #b31201; 
+    border-radius: 10px; 
 }
+
 
 
 h1 {
